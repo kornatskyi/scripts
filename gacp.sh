@@ -1,5 +1,5 @@
 #! /bin/bash
 
-git add . || echo "nothing to add"
+git add .
 git commit -m "$1"
 git push
